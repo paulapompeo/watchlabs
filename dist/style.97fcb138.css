@@ -81,6 +81,23 @@ button, a {
   margin-right: 88px;
 }
 
+.images-section {
+  padding: 0 60px;
+  display: flex;
+}
+.images-section .instagram img {
+  width: 714px;
+  height: 714px;
+}
+.images-section .images-details {
+  display: flex;
+  flex-direction: column;
+}
+.images-section .images-details img {
+  width: 357px;
+  height: 357px;
+}
+
 footer {
   padding: 60px;
 }
@@ -96,6 +113,12 @@ footer .getting-in-touch {
 footer .getting-in-touch strong {
   font-size: 72px;
   color: #fff;
+}
+footer .getting-in-touch p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: bold;
 }
 footer .getting-in-touch .email-input input {
   color: #fff;

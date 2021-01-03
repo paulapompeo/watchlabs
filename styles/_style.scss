@@ -77,6 +77,27 @@
   }
 }
 
+.images-section{
+	padding: 0 60px;
+	display: flex;
+
+	.instagram img {
+		width: 714px;
+		height: 714px;
+	}
+
+	.images-details{
+
+		display:flex;
+		flex-direction: column;
+		
+		img {
+			width: 357px;
+			height: 357px;
+		}
+	}
+}
+
 footer {
 	padding: 60px;
 
@@ -100,7 +121,10 @@ footer {
 		}
 
 		p{
-
+			font-size: 14px;
+			font-family: 'Montserrat', sans-serif;
+			color: $white;
+			font-weight: bold;
 		}
 
 		.email-input {
