@@ -1,40 +1,42 @@
-@import 'variables';
+// @import 'variables';
 
-html, body, .app-container {
-  height: 100vh;
-}
+// html, body, .app-container {
+//   height: 100vh;
+// }
 
-.app-container {
-  font-size: 60%;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-}
+// .app-container {
+//   font-size: 60%;
+//   // display: flex;
+//   // align-items: center;
+//   // justify-content: center;
+// }
 
-body {
-  background-color: $white;
-}
+// body {
+//   background-color: $white;
+// }
 
-body, 
-input, 
-button, 
-textarea {
-    /** adicionar 1.6 a mais no tamanho da fonte **/ 
-    font: 400 1.6rem 'Merriweather';
-    color: $gray;
-}
-
-.container {
-  width: 90vw;
-  max-width: 700px;
-}
-
-/** em dispositivos maiores que 700px, a fonte será aumentada**/
-// ver se isso ta certo
-@media (min-width: 700px){
-  .app-container {
-    font-size: 62.5%
-  }
-}
-
+// body, 
+// input, 
 // button, 
+// textarea {
+//     /** adicionar 1.6 a mais no tamanho da fonte **/ 
+//     // font: 400 1.6rem 'Merriweather';
+//     color: $gray;
+// }
+
+// .container {
+//   width: 90vw;
+//   max-width: 700px;
+// }
+
+// /** em dispositivos maiores que 700px, a fonte será aumentada**/
+// // ver se isso ta certo
+// @media (min-width: 700px){
+//   .app-container {
+//     font-size: 62.5%
+//   }
+// }
+
+// button, a{
+//   cursor: pointer;
+// }
