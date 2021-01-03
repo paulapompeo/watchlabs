@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -14,17 +15,35 @@ html, body, .app-container {
 
 .app-container {
   font-size: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 body {
   background-color: #fff;
 }
 
+body,
+input,
+button,
+textarea {
+  /** adicionar 1.6 a mais no tamanho da fonte **/
+  font: 400 1.6rem "Merriweather";
+  color: #808080;
+}
+
+.container {
+  width: 90vw;
+  max-width: 700px;
+}
+
+/** em dispositivos maiores que 700px, a fonte será aumentada**/
+@media (min-width: 700px) {
+  .app-container {
+    font-size: 62.5%;
+  }
+}
 .menu-bar-container {
   height: 80px;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,8 +106,34 @@ body {
   margin-right: 88px;
 }
 
-.banner-container img {
-  max-width: 100%;
+.banner-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  height: 709px;
+  max-width: 1550px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/banner.9174b583.png) no-repeat center;
+  background-size: cover;
+}
+.banner-container .banner-content {
+  margin-top: 150px;
+  text-align: center;
+}
+.banner-container .banner-content span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+.banner-container .banner-content h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+.banner-container .banner-content p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 24px;
 }
 
 /*# sourceMappingURL=/style.97fcb138.css.map */

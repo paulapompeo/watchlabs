@@ -1,5 +1,6 @@
 .menu-bar-container {
   height: 80px;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,5 +67,50 @@
       background-color: $white;
       margin-right: 88px;
 		}
+  }
+}
+
+.banner-container{
+  display: flex;
+  flex: 1;
+  // align-items: center;
+  justify-content: center;
+  height: 709px;
+  max-width: 1550px;
+
+  background: 
+  linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+  ),
+  url(assets/banner.png) no-repeat center;
+  background-size: cover;
+
+  .banner-content {
+    margin-top: 150px;
+    text-align: center;
+
+    span {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      color: $white;
+    }
+
+    h4 {
+      //trocar a fonte aqui - tipo que nao temos
+      //ver como corta a linha em 2
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      color: $white;
+    }
+
+    p {
+      //trocar a fonte aqui - tipo que nao temos
+      font-family: 'Montserrat', sans-serif;
+      font-weight: normal;
+      color: $white;
+      margin-top: 24px;
+    }
+
   }
 }
